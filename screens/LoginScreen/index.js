@@ -1,18 +1,18 @@
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 
-class HomeScreen extends React.Component {
+class LoginScreen extends React.Component {
   render() {
     return (
       <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Text>Home Screen</Text>
+        <Text>Login Screen</Text>
         <Button
-          title="Go back"
-          onPress={() => this.props.navigation.goBack()}
+          title="Go to Home"
+          onPress={() => this.props.navigation.navigate('SelectStore')}
         />
       </View>
     );
   }
 }
 
-export default HomeScreen;
+export default LoginScreen;

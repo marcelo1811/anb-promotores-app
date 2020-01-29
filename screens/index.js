@@ -1,5 +1,9 @@
 import HomeScreen from './HomeScreen'
+import SelectStoreScreen from './SelectStoreScreen'
+import LoginScreen from './LoginScreen'
 
-export default {
-  HomeScreen
+export {
+  LoginScreen,
+  SelectStoreScreen,
+  HomeScreen,
 }
